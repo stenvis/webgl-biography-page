@@ -13,16 +13,21 @@ function loadApplication() {
       baseStyles = document.createElement('link'),
       loader  = document.createElement('script');
 
-   baseStyles.rel = 'stylesheet';
-   baseStyles.href = '/webgl/styles/index.css';
-   baseStyles.defer = true;
-   baseStyles.type = 'text/css';
-   head.appendChild(baseStyles);
+   // baseStyles.rel = 'stylesheet';
+   // baseStyles.href = '/webgl/styles/index.css';
+   // baseStyles.defer = true;
+   // baseStyles.type = 'text/css';
+   // head.appendChild(baseStyles);
 
-   loader.src = '/webgl/root.js';
+   loader.src = 't.js';
    baseStyles.defer = true;
    loader.type = 'module';
    head.appendChild(loader);
+
+   // loader.src = '/webgl/root.js';
+   // baseStyles.defer = true;
+   // loader.type = 'module';
+   // head.appendChild(loader);
 
    document.removeEventListener('DOMContentLoaded', checkSupport);
 };

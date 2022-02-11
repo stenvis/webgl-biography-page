@@ -1,1 +1,1 @@
-console.log('start point root t');
+console.log('start point root');
