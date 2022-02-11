@@ -19,15 +19,10 @@ function loadApplication() {
    // baseStyles.type = 'text/css';
    // head.appendChild(baseStyles);
 
-   loader.src = 't.js';
+   loader.src = 'webgl/root.js';
    baseStyles.defer = true;
    loader.type = 'module';
    head.appendChild(loader);
-
-   // loader.src = '/webgl/root.js';
-   // baseStyles.defer = true;
-   // loader.type = 'module';
-   // head.appendChild(loader);
 
    document.removeEventListener('DOMContentLoaded', checkSupport);
 };
