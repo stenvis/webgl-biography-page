@@ -1,1 +1,4 @@
-console.log('start point root');
+
+function initApp() {
+
+};

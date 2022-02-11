@@ -3,26 +3,11 @@
 	padding: 0;
 	border: 0;
 	user-select: none;
-	font-family: 'montserrat';
+	font-family: monospace;
 }
 
 a {
 	text-decoration: none;
-}
-
-p {
-	text-indent: 1.5rem;
-	text-align: justify;
-}
-
-li {
-	list-style-type: none;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-	width: max-content;
 }
 
 article,
@@ -40,7 +25,7 @@ header,
 footer,
 section {
 	position: absolute;
-	z-index: 2;
+	z-index: 1;
 }
 
 body,
@@ -55,9 +40,7 @@ body,
 	position: absolute;
 }
 
-.pointer,
-.siblings,
-.button {
+.pointer {
 	cursor: pointer;
 }
 
@@ -67,10 +50,6 @@ body,
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-}
-
-.hidden {
-	visibility: hidden;
 }
 
 #canvas {
