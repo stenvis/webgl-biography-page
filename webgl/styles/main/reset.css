@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	user-select: none;
+	font-family: 'montserrat';
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	text-indent: 1.5rem;
+	text-align: justify;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: max-content;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+
+header,
+footer,
+section {
+	position: absolute;
+	z-index: 2;
+}
+
+body,
+#canvas,
+#root {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#root {
+	position: absolute;
+}
+
+.pointer,
+.siblings,
+.button {
+	cursor: pointer;
+}
+
+.pointer {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#canvas {
+	filter: contrast(110%);
+}

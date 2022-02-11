@@ -19,7 +19,7 @@ function loadApplication() {
    baseStyles.type = 'text/css';
    head.appendChild(baseStyles);
 
-   loader.src = '/webgl/loader.js';
+   loader.src = '/webgl/root.js';
    baseStyles.defer = true;
    loader.type = 'module';
    head.appendChild(loader);
