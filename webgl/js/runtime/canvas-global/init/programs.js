@@ -4,7 +4,7 @@ import earth from '../../../shaders/custom/earth.js';
 const programsList = [
    earth,
 ];
-;
+
 function initPrograms() {
    ctx.system.createPrograms(programsList);
 };
