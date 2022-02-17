@@ -1,5 +1,5 @@
-import ctx from '/webgl/js/runtime/canvas-global/system/ctx.js';
-import earth from '/webgl/js/shaders/custom/earth.js';
+import ctx from '../system/ctx.js';
+import earth from '../../../shaders/custom/earth.js';
 
 const programsList = [
    earth,
