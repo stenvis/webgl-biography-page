@@ -14,6 +14,7 @@ const render = {
 };
 
 function start() {
+   console.log('start');
    tick();
    reactor.t();
 }; 
