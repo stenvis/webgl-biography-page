@@ -14,7 +14,7 @@ const render = {
 };
 
 function start() {
-   console.log('start');
+   console.log('start!');
    tick();
 }; 
 
