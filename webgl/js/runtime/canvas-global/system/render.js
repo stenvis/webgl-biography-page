@@ -1,5 +1,5 @@
 import ctx from './ctx.js';
-import Reactor from '../lib/js-client-helpers/reactor.js';
+import Reactor from '../../../lib/js-client-helpers/reactor.js';
 
 const 
    reactor = new Reactor(),
