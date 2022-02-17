@@ -1,6 +1,6 @@
-import GL from '/webgl/js/lib/webgl-si/gl.js';
-import DOM from '/webgl/js/lib/js-client-helpers/dom.js';
-import Resize from '/webgl/js/lib/js-client-helpers/resize.js';
+import GL from '../../../lib/webgl-si/gl.js';
+import DOM from '../../../lib/js-client-helpers/dom.js';
+import Resize from '../../../lib/js-client-helpers/resize.js';
 
 const { GEBI, GCTX } = DOM;
 
