@@ -1,0 +1,6 @@
+[submodule "js-client-helpers"]
+	path = js-client-helpers
+	url = git@github.com:stenvis/js-client-helpers.git
+[submodule "webgl-si"]
+	path = webgl-si
+	url = git@github.com:stenvis/webgl-si.git
