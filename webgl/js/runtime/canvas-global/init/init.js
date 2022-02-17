@@ -1,9 +1,9 @@
-// import initPrograms from '/webgl/js/runtime/canvas-global/init/programs.js';
-// import initKernels from '/webgl/js/runtime/canvas-global/init/kernels.js';
+import initPrograms from './programs.js';
+import initKernels from './kernels.js';
 
 function initGlobalCanvas() {
-   // initPrograms();
-   // initKernels();
+   initPrograms();
+   initKernels();
 }; 
 
 export default initGlobalCanvas;
