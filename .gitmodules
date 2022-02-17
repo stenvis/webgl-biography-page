@@ -1,6 +1,6 @@
-[submodule "src/js/lib/webgl-biography-page"]
-	path = src/js/lib/webgl-biography-page
-	url = git@github.com:stenvis/webgl-biography-page.git
 [submodule "src/js/lib/webgl-si"]
 	path = src/js/lib/webgl-si
 	url = git@github.com:stenvis/webgl-si.git
+[submodule "src/js/lib/js-client-helpers"]
+	path = src/js/lib/js-client-helpers
+	url = git@github.com:stenvis/js-client-helpers
