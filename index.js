@@ -14,12 +14,12 @@ function loadApplication() {
       loader  = document.createElement('script');
 
    baseStyles.rel = 'stylesheet';
-   baseStyles.href = 'webgl/styles/index.css';
+   baseStyles.href = 'src/styles/index.css';
    baseStyles.defer = true;
    baseStyles.type = 'text/css';
    head.appendChild(baseStyles);
 
-   loader.src = 'webgl/root.js';
+   loader.src = 'src/root.js';
    baseStyles.defer = true;
    loader.type = 'module';
    head.appendChild(loader);
