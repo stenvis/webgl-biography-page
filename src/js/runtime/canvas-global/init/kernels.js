@@ -1,6 +1,7 @@
-// import earth from '/webgl/js/runtime/canvas-global/kernels/earth.js';
+import { init } from '../kernels/earth.js';
 
 function initKernels() {
+   init();
 };
 
 export default initKernels;

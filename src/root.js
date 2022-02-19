@@ -1,7 +1,5 @@
-import render from './js/runtime/canvas-global/system/render.js';
-import initGlobalCanvas from './js/runtime/canvas-global/init/init.js'; 
+import canvasGlobal from './js/runtime/canvas-global/controllers/main.js';
 
 {
-   initGlobalCanvas();
-   render.start();
-};
+   canvasGlobal.start();
+}
