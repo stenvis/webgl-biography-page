@@ -1,7 +1,7 @@
-import { init } from '../kernels/earth.js';
+import CEarth from '../kernels/earth.js';
 
 function initKernels() {
-   init();
+   CEarth.addKernel();
 };
 
 export default initKernels;

@@ -1,4 +1,3 @@
-import initPrograms from '../init/programs.js';
 import initKernels from '../init/kernels.js';
 import initResizeDependencies from '../init/resize.js';
 import render from './render.js';
@@ -16,7 +15,6 @@ function stop() {
 };
 
 {
-   initPrograms();
    initKernels();
    initResizeDependencies();
 }

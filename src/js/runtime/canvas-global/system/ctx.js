@@ -1,7 +1,10 @@
 import GL from '../../../lib/webgl-si/gl.js';
+import MVP from '../../../lib/webgl-si/camera/mvp.js';
+import Modeller from '../../../lib/webgl-si/modeller.js';
 import DOM from '../../../lib/js-client-helpers/dom.js';
 import Resize from '../../../lib/js-client-helpers/resize.js';
-import Reactor from '../../../lib/js-client-helpers/reactor.js';
+import Reactor from '../../../lib/js-client-helpers/reactor/reactor.js';
+import Kerneller from '../../../lib/js-client-helpers/reactor/kerneller.js';
 
 const { GEBI, GCTX } = DOM;
 
@@ -25,14 +28,20 @@ const
 const
    resize = new Resize(canvas),
    system = new GL(gl),
-   reactor = new Reactor();
+   modeller = new Modeller(system),
+   reactor = new Reactor(),
+   kerneller = new Kerneller(reactor),
+   mvp = new MVP();
 
 const ctx = {
    canvas,
    gl,
    system,
+   modeller,
    resize,
    reactor,
+   kerneller,
+   mvp,
 };
 
 export default ctx;

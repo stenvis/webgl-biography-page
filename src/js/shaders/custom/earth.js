@@ -1,4 +1,4 @@
-const earth = {
+const shaders = {
    vs: 
    `
       precision lowp float;
@@ -11,10 +11,11 @@ const earth = {
          gl_PointSize = 1.4;
          vx = aPosition.x * 10.;
          vec4 nPos = mvp * aPosition;
+         gl_PointSize = aPosition.z * 30.;
          gl_Position = nPos;
       }
     `,
-  fs: 
+  fs:
    `
       precision lowp float;
 
@@ -32,4 +33,4 @@ const earth = {
    `,
 };
 
-export default earth;
+export default shaders;
